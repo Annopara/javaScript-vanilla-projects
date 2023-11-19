@@ -47,4 +47,5 @@ const shareJoke = () => {
 };
 
 jokeBtn.addEventListener("click", generateProgrammingJoke);
+document.addEventListener("DOMContentLoaded", generateProgrammingJoke);
 jokeShare.addEventListener("click", shareJoke);
